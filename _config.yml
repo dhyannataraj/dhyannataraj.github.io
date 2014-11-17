@@ -1,7 +1,8 @@
 # Harmony Jekyll theme general configurations 
 
 # Base URL
-baseurl: /harmony
+# baseurl: /harmony
+baseurl: /
 
 # Site live URL
 # url: http://gayan.me
