@@ -62,7 +62,7 @@ categories:
 
 Данные из полей K-PACS Server Application Entry Title и Server Port следует добавить в /usr/lib/cgi-bin/acrnema.map вместе с IPшником той машины на которой этот K-PAСS запускается. Примерно вот так:
 
-{% highlight %}
+{% highlight ruby %}
 KPServer                10.0.0.2        104             un
 {% endhighlight %}
 
