@@ -7,7 +7,7 @@ categories:
 - blog
 ---
 
-Тут речь пойдет об установке открытого [DICOM][http://ru.wikipedia.org/wiki/Dicom] сервера [[http://www.xs4all.nl/~ingenium/dicom.html][Conquest]] под ОС Linux (на примере Debian GNU/Linux)
+Тут речь пойдет об установке открытого [DICOM](http://ru.wikipedia.org/wiki/Dicom) сервера [[http://www.xs4all.nl/~ingenium/dicom.html][Conquest]] под ОС Linux (на примере Debian GNU/Linux)
 
 Сервер умеет хранить индексную информацию в базах данных PostgreSQL, mysql и sqlite. Файлы исследований во всех случаях хранятся в файловой системе. 
 Для случая PostgreSQL и mysql, сервер подключается к внешним базам данных, указанным в конфиге. Для случая sqlite эта мини-субд вкомпилируется напрямую в сервер. 
