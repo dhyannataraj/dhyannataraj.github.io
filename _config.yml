@@ -13,33 +13,33 @@ url: http://dhyannataraj.github.io
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
-  name: Harmony
+  name: Николай Шаплов - Блог программиста
   # Little description about your site
-  description: Harmony is free responsive jekyll theme.
+  description: Nikolay Shaplov - Programmer's Blog
   # 'meta_description:' Write an awesome description for your new site here.
   # It will appear in your document head meta (for Google search results) and 
   # in your feed.xml site description.
   meta_description: > # 
-   Harmony is a free responsive jekyll theme by Gayan Virajith
-   and Maheshika Lakmali. Source code available at 
-   https://github.com/gayanvirajith/harmony
+#   Harmony is a free responsive jekyll theme by Gayan Virajith
+#   and Maheshika Lakmali. Source code available at 
+#   https://github.com/gayanvirajith/harmony
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: Gayan Virajith
-    email: gayanvirajith@gmail.com
-    url: http://gayanvirajith.github.io
+    name: Nikoay Shaplov
+    email: dhyan@nataraj.su
+    url: http://dhyannataraj.github.io
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-xxxx-x
 
   # Profile links, leave blank to ignore
   social: 
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
+    github: dhyannataraj
+#    twitter: gayanvirajith
+#    facebook: gayanvirajith
 #    gplus: +GayanVirajith
-    dribble: gayan
-    pinterest: 
+#    dribble: gayan
+#    pinterest: 
   # Toggle disclaimer in footer
   show_disclaimer: true
 
