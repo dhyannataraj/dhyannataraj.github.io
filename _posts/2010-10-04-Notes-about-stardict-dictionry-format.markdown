@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Notes about Stardict dictionary format"
+title:  "Notes about StarDict dictionary format"
 date:   2010-10-04 22:48:45
 description: 
 categories:
 - blog
 ---
 
-This text covers some parts of Stardict format as it were at version 2.4.2
+This text covers some parts of StarDict format as it were at version 2.4.2
 Also think about reading the oficcial description of StarDict format that is shipping with the source code:
 [https://code.google.com/p/stardict-3/source/browse/dict/doc/StarDictFileFormat](https://code.google.com/p/stardict-3/source/browse/dict/doc/StarDictFileFormat)
 
