@@ -7,8 +7,6 @@ categories:
 - blog
 ---
 
-## Настройка Dicom сервера Conquest
-
 Тут речь пойдет об установке открытого [[http://ru.wikipedia.org/wiki/Dicom][DICOM]] сервера [[http://www.xs4all.nl/~ingenium/dicom.html][Conquest]] под ОС Linux (на примере Debian GNU/Linux)
 
 Сервер умеет хранить индексную информацию в базах данных PostgreSQL, mysql и sqlite. Файлы исследований во всех случаях хранятся в файловой системе. 
@@ -62,7 +60,7 @@ categories:
 
 Данные из полей K-PACS Server Application Entry Title и Server Port следует добавить в /usr/lib/cgi-bin/acrnema.map вместе с IPшником той машины на которой этот K-PAСS запускается. Примерно вот так:
 
-{% highlight ruby %}
+{% highlight none %}
 KPServer                10.0.0.2        104             un
 {% endhighlight %}
 
@@ -80,7 +78,7 @@ MITO - Medical Imaging TOolkit - http://amico.icar.cnr.it/mito.php опенсо�
 
 Во вкладе Network:
 
-http://lj.shaplov.ru/2010/mito_config.png
+![Скриншот вкладки Network ]({{ site.url }}/assets/images/2010-03-02-mito_config.png)
 
 Server Node: IP адрес Conquesta 
 Server Port: Порт к которому прибинден Conquest (по умолчанию 5678)
