@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Настройка Dicom сервера Conquest"
+title:  "Настройка DICOM сервера Conquest / Configuring and Running Conquest DICOM server"
 date:   2010-03-02 22:48:45
 description: 
 categories:
 - blog
 ---
+
+'This article is written in Russian. You might want to read a [Google Translation](https://translate.google.com/translate?sl=auto&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Fdhyannataraj.github.io%2Fblog%2F2010%2F03%2F02%2FBuilding-and-configuring-Conquest-DICOM-for-linux%2F&edit-text=) in order to get the main idea.'
 
 Тут речь пойдет об установке открытого [DICOM](http://ru.wikipedia.org/wiki/Dicom) сервера [Conquest](http://www.xs4all.nl/~ingenium/dicom.html) под ОС Linux (на примере Debian GNU/Linux)
 
@@ -14,7 +16,7 @@ categories:
 
 Справедливости ради, надо заметить, что мне не удалось собрать Conquest с sqlite, и я не пробовал устанавливать его с Postgresql, поэтому речь пойдет о сборе с использованием mysql.
 
-1. **Скачиваем дистрибутив conquest'а для сборки под линукс** со страницы [http://www.xs4all.nl/~ingenium/dicom.html](http://www.xs4all.nl/~ingenium/dicom.html) (на момент написания страницы последняя версия -- ftp://ftp-rt.nki.nl/outbox/MarcelVanHerk/dicomserver/conquestlinux1415.tar.gz )
+1. **Скачиваем дистрибутив conquest'а для сборки под линукс** со страницы [http://www.xs4all.nl/~ingenium/dicom.html](http://www.xs4all.nl/~ingenium/dicom.html) (на момент написания страницы последняя версия -- [ftp://ftp-rt.nki.nl/outbox/MarcelVanHerk/dicomserver/conquestlinux1415.tar.gz](ftp://ftp-rt.nki.nl/outbox/MarcelVanHerk/dicomserver/conquestlinux1415.tar.gz) )
 
 2. **Ставим пакет  libmysqlclient-dev** с заголовочными файлами библиотеки для соединения с mysql
 
@@ -48,7 +50,7 @@ categories:
 
 #### K-PACS
 
- K- PACS: http://www.k-pacs.net/10555.html -  бесплатная windows-only программа с закрытым кодом. Под wine'ом не работает. 
+ K- PACS: [http://www.k-pacs.net/10555.html](http://www.k-pacs.net/10555.html) -  бесплатная windows-only программа с закрытым кодом. Под wine'ом не работает. 
 
 Настройка подключения к серверу происходит по нажатию на кнопку с тремя компьютерами. Если конквест был поставлен с настройками по умолчанию, должны быть примерно такими:
 
@@ -71,7 +73,7 @@ categories:
 
 #### MITO
 
-MITO - Medical Imaging TOolkit - http://amico.icar.cnr.it/mito.php опенсорсный просмоторщих DICOM, написанный на C++/wxWidgets. Бинарники дают только под винду, под линукс его судя по всему никогда не собирали, но теоретически -- это возможно. Ну или если откуда брать код для дальнейшей работы, так это отсюда.
+MITO - Medical Imaging TOolkit - [http://amico.icar.cnr.it/mito.php](http://amico.icar.cnr.it/mito.php) опенсорсный просмоторщих DICOM, написанный на C++/wxWidgets. Бинарники дают только под винду, под линукс его судя по всему никогда не собирали, но теоретически -- это возможно. Ну или если откуда брать код для дальнейшей работы, так это отсюда.
 
 Настроить MITO следует через меню Pacs/Preferences 
 
