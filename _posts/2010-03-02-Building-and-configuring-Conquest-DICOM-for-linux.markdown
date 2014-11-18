@@ -7,7 +7,7 @@ categories:
 - blog
 ---
 
-'This article is written in Russian. You might want to read a [Google Translation](https://translate.google.com/translate?sl=auto&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Fdhyannataraj.github.io%2Fblog%2F2010%2F03%2F02%2FBuilding-and-configuring-Conquest-DICOM-for-linux%2F&edit-text=) in order to get the main idea.'
+*This article is written in Russian. You might want to read a [Google Translation](https://translate.google.com/translate?sl=auto&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Fdhyannataraj.github.io%2Fblog%2F2010%2F03%2F02%2FBuilding-and-configuring-Conquest-DICOM-for-linux%2F&edit-text=) in order to get the main idea.*
 
 Тут речь пойдет об установке открытого [DICOM](http://ru.wikipedia.org/wiki/Dicom) сервера [Conquest](http://www.xs4all.nl/~ingenium/dicom.html) под ОС Linux (на примере Debian GNU/Linux)
 
