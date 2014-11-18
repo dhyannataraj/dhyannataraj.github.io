@@ -14,7 +14,7 @@ categories:
 
 Справедливости ради, надо заметить, что мне не удалось собрать Conquest с sqlite, и я не пробовал устанавливать его с Postgresql, поэтому речь пойдет о сборе с использованием mysql.
 
-1. **Скачиваем дистрибутив conquest'а для сборки под линукс** со страницы (http://www.xs4all.nl/~ingenium/dicom.html) (на момент написания страницы последняя версия -- ftp://ftp-rt.nki.nl/outbox/MarcelVanHerk/dicomserver/conquestlinux1415.tar.gz )
+1. **Скачиваем дистрибутив conquest'а для сборки под линукс** со страницы [](http://www.xs4all.nl/~ingenium/dicom.html) (на момент написания страницы последняя версия -- ftp://ftp-rt.nki.nl/outbox/MarcelVanHerk/dicomserver/conquestlinux1415.tar.gz )
 
 2. **Ставим пакет  libmysqlclient-dev** с заголовочными файлами библиотеки для соединения с mysql
 
