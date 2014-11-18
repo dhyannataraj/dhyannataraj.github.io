@@ -60,9 +60,8 @@ categories:
 
 Данные из полей K-PACS Server Application Entry Title и Server Port следует добавить в /usr/lib/cgi-bin/acrnema.map вместе с IPшником той машины на которой этот K-PAСS запускается. Примерно вот так:
 
-{% highlight none %}
-KPServer                10.0.0.2        104             un
-{% endhighlight %}
+
+<pre>KPServer                10.0.0.2        104             un</pre>
 
 Далее, при выборе вкладки database показывают список локальных картинок. При выборе вкладки network - сетевых. Но чтобы хоть что-то показали надо нажать кнопку Search. И вспомнить поставить галочку рядом с одним из серверов в списке вкладки.
 
