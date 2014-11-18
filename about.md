@@ -1,19 +1,15 @@
 ---
 layout: page
-title: About me
+title: О себе 
 permalink: /about/
 ---
 
-Hi, I am Gayan Virajith, a developer (who works on the web) based on Sri Lanka. 
-Graduated from the University College Dublin (National University of Ireland). 
+Привет! Меня зовут Николай Шаплов, я perl-программист и пользователь Линукс. Вы сейчас читаете мой программистский блог в котором собраны разные заметки "для себя", чтобы в будущем не нужно было мучительно вспоминать как я решал ту или иную задачу.
 
-I am Working for [template-factory.nl][tf] also known as [Mearch ICT][m].
-Prefer to serve with Php and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+<!--
 
 ### Contact me
-
-Find me on [Google+][google] / [Github][github] / [Twitter][Twitter] or just say `Hello` at 
+ Find me on [Google+][google] / [Github][github] / [Twitter][Twitter] or just say `Hello` at 
 [gayanvirajith@gmail.com](gayanvirajith@gmail.com).
 
 
@@ -25,3 +21,4 @@ Find me on [Google+][google] / [Github][github] / [Twitter][Twitter] or just say
 [github]: https://github.com/gayanvirajith
 [google]: https://plus.google.com/+GayanVirajith
 [twitter]: https://twitter.com/gayanvirajith
+-->
