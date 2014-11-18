@@ -7,14 +7,14 @@ categories:
 - blog
 ---
 
-Тут речь пойдет об установке открытого [DICOM](http://ru.wikipedia.org/wiki/Dicom) сервера [[http://www.xs4all.nl/~ingenium/dicom.html][Conquest]] под ОС Linux (на примере Debian GNU/Linux)
+Тут речь пойдет об установке открытого [DICOM](http://ru.wikipedia.org/wiki/Dicom) сервера [Conquest](http://www.xs4all.nl/~ingenium/dicom.html) под ОС Linux (на примере Debian GNU/Linux)
 
 Сервер умеет хранить индексную информацию в базах данных PostgreSQL, mysql и sqlite. Файлы исследований во всех случаях хранятся в файловой системе. 
 Для случая PostgreSQL и mysql, сервер подключается к внешним базам данных, указанным в конфиге. Для случая sqlite эта мини-субд вкомпилируется напрямую в сервер. 
 
 Справедливости ради, надо заметить, что мне не удалось собрать Conquest с sqlite, и я не пробовал устанавливать его с Postgresql, поэтому речь пойдет о сборе с использованием mysql.
 
-1. **Скачиваем дистрибутив conquest'а для сборки под линукс** со страницы http://www.xs4all.nl/~ingenium/dicom.html (на момент написания страницы последняя версия -- ftp://ftp-rt.nki.nl/outbox/MarcelVanHerk/dicomserver/conquestlinux1415.tar.gz )
+1. **Скачиваем дистрибутив conquest'а для сборки под линукс** со страницы (http://www.xs4all.nl/~ingenium/dicom.html) (на момент написания страницы последняя версия -- ftp://ftp-rt.nki.nl/outbox/MarcelVanHerk/dicomserver/conquestlinux1415.tar.gz )
 
 2. **Ставим пакет  libmysqlclient-dev** с заголовочными файлами библиотеки для соединения с mysql
 
