@@ -8,6 +8,8 @@ categories:
 ---
 
 This text covers some parts of Stardict format as it were at version 2.4.2
+Also think about reading the oficcial description of StarDict format that is shipping with the source code:
+[https://code.google.com/p/stardict-3/source/browse/dict/doc/StarDictFileFormat](https://code.google.com/p/stardict-3/source/browse/dict/doc/StarDictFileFormat)
 
 ## Uncompressed Stardict dictionary
 
