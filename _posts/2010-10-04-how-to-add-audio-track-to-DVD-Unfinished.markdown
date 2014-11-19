@@ -1,11 +1,14 @@
 ---
 layout: post
 title:  "Как добавить новую звуковую дорожку на существующий DVD диск [не закончено]"
-date:   2010-10-04 22:48:45
-description: 
+date:   2010-04-24 22:48:45
+description:
 categories:
 - blog
 ---
+
+*Внимание. Этот пост не имеен счастливого финала. Я его писал в процессе разбирательства с темой и вдруг выяснил что на тот момент эта задача открытыми инструментами в том виде в котором бы мне хотелось бы не решается.
+Если я правильно помню, уперся я в невозможность вставить выбор нового трека в меню диска, так что остальные задачи должны более или менее решаться*
 
 Мне, как любителю поизучать языки, иногда приходит в голову посмотреть тот или иной фильм с оригинальной звуковой дорожкой... А еще лучше и с субтитрами, поскольку на слух я не всегда хорошо разбираю... И лучше все это в DVD качестве... Но увы, найти готовый диск удовлетворяющий этим требованиям достаточно сложно... Особенно если речь идет не об английском языке... Можно найти DVD-диск с русским переводом, можно скачать что-то ужасно пожатое, с оригинальной дорожкой... Иногда удается найти отдельные субтитры, сотворенные неизвестным героем в .srt файле... Но вот как это собрать в конечный DVD... 
 
@@ -92,7 +95,7 @@ At least one output file must be specified</pre>
 
 Теперь легким движением руки извлекаем звуковую дорожку в обособленный звуковой файл
 
-<b><pre>$ ffmpeg -i film_in_french.avi  -acodec copy french_track.mp3</pre></b><pre>
+<pre>$ ffmpeg -i film_in_french.avi  -acodec copy french_track.mp3
 FFmpeg version SVN-r21686, Copyright (c) 2000-2010 Fabrice Bellard, et al.
   built on Feb 12 2010 09:47:34 with gcc 4.4.3
   configuration: [... Опушено ...]
@@ -116,7 +119,7 @@ video:0kB audio:24898kB global headers:0kB muxing overhead 0.000129%</pre>
 
 Для синхронизации извлечем звуковую дорожку из нашего .vob-файла...
 
-<b><pre>$ ffmpeg -i vob_02t_001.vob  russian_track.wav</pre></b><pre>
+<pre>$ ffmpeg -i vob_02t_001.vob  russian_track.wav
 FFmpeg version SVN-r21686, Copyright (c) 2000-2010 Fabrice Bellard, et al.
   built on Feb 12 2010 09:47:34 with gcc 4.4.3
   configuration: [... Опущенно ...]
@@ -146,8 +149,8 @@ video:0kB audio:966762kB global headers:0kB muxing overhead 0.000004%</pre>
 
 Для начала переконвертируем звуковую дорожку в подходящий для DVD-диска формат ac3. В качестве битрейта выберем 192k, как в русском саундтреке. Качетсва звучания это конечно не увеличит, исходный файл был сильно сжат mp3 кодеком, но зато и не ухудшит. А свободного места на DVD болванке хоть отбавляй
 
-<b><pre>$ ffmpeg -i french_track_mod.wav -acodec ac3 -ab 192k french_track_mod.ac3</pre></b>
-<pre>FFmpeg version SVN-r21686, Copyright (c) 2000-2010 Fabrice Bellard, et al.
+<pre>$ ffmpeg -i french_track_mod.wav -acodec ac3 -ab 192k french_track_mod.ac3
+FFmpeg version SVN-r21686, Copyright (c) 2000-2010 Fabrice Bellard, et al.
   built on Feb 12 2010 09:47:34 with gcc 4.4.3
   configuration: [... Опущено ...]
 
@@ -166,8 +169,8 @@ video:0kB audio:119536kB global headers:0kB muxing overhead 0.000000%</pre>
 
 Теперь дорожку в правильном формате добавляем в наш главный .vob файл
 
-<b><pre>$ ffmpeg -i vob_02t_001.vob  -vcodec copy -acodec copy -i french_track_mod.ac3  -target pal-dvd vob_02t_001.new.vob -acodec copy -newaudio</pre></b>
-<pre>FFmpeg version SVN-r21686, Copyright (c) 2000-2010 Fabrice Bellard, et al.
+<pre>$ ffmpeg -i vob_02t_001.vob  -vcodec copy -acodec copy -i french_track_mod.ac3  -target pal-dvd vob_02t_001.new.vob -acodec copy -newaudio
+FFmpeg version SVN-r21686, Copyright (c) 2000-2010 Fabrice Bellard, et al.
   built on Feb 12 2010 09:47:34 with gcc 4.4.3
   configuration: [... Опущено ...]
 
@@ -196,6 +199,4 @@ video:2971233kB audio:240382kB global headers:0kB muxing overhead 1.257423%</pre
 Нюансы расположения аргументов таковы: Входные файлы через -i записываются в начале, после них имя выходного файла, в самом конце &mdash; -newaudio, символизирущий тот факт что в выходном файле добавляется еще один звуковой трек, -acodec copy перед -newaudio говорит что новый трек будет добавлен без перекодирования; -vcodec copy -acodec copy после первого входного файла, так же говорит что в результирующий файл оба потока первого входного файлоа должны быть скопированны без перекодирования... -target pal-dvd указывает тип создаваемого файла. pal-dvd как раз подходит для  последующего применения dvdauthor для того чтобы преобразовать mpeg файл назад в dvd.
 
 
-*To be continued...*
-
--- Main.DhyanNataraj - 2010-04-03
+**На этом повествование обрывается, продолжения не будет...**
