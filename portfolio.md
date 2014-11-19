@@ -12,19 +12,19 @@ permalink: /portfolio/
 
 ### perl
 
-**Device::GSM** 1.44 - [Patch for decoding SMS with nonASCII letters](https://rt.cpan.org/Public/Bug/Display.html?id=20906) <br>
-**Device::GSM** 1.54 - [[https://rt.cpan.org/Public/Bug/Display.html?id=31565][Fix problem with decoding outgoing messages]]
+**Device::GSM** 1.44 - [Patch for decoding SMS with non-ASCII letters](https://rt.cpan.org/Public/Bug/Display.html?id=20906) <br>
+**Device::GSM** 1.54 - [Fix problem with decoding outgoing messages](https://rt.cpan.org/Public/Bug/Display.html?id=31565)
 
-**Image::Size** 3.1 - [[https://rt.cpan.org/Public/Bug/Display.html?id=27844][Fix problem with detecting size of flash6 movie with old version of Compress::Zlib]]
+**Image::Size** 3.1 - [Fix problem with detecting size of flash6 movie with old version of Compress::Zlib](https://rt.cpan.org/Public/Bug/Display.html?id=27844)
 
-**Template::Toolkit** 2.20 - [[http://rt.cpan.org/Public/Bug/Display.html?id=34876][Minor FAQ improvement]]
+**Template::Toolkit** 2.20 - [Minor FAQ improvement](http://rt.cpan.org/Public/Bug/Display.html?id=34876)
 
-**DBD::Pg** 2.8.2 - [[http://rt.cpan.org/Public/Bug/Display.html?id=37015][Some pod improvement]]
+**DBD::Pg** 2.8.2 - [Some pod improvement](http://rt.cpan.org/Public/Bug/Display.html?id=37015)
 
-**MediaWiki-API** 0.34 - [[https://rt.cpan.org/Public/Bug/Display.html?id=59673][Fix problem with uncode in article names when using GET request]]<br />
-**MediaWiki-API** 0.35 - [[https://rt.cpan.org/Public/Bug/Display.html?id=59976][Patch allows to use unicode strings out of box]]
+**MediaWiki-API** 0.34 - [Fix problem with uncode in article names when using GET request](https://rt.cpan.org/Public/Bug/Display.html?id=59673) <br>
+**MediaWiki-API** 0.35 - [Patch allows to use unicode strings out of box](https://rt.cpan.org/Public/Bug/Display.html?id=59976)
 
 ### other
 
-**KNetrownManager** 0.9 - [[https://bugs.kde.org/show_bug.cgi?id=291122][#291122]], [[https://bugs.kde.org/show_bug.cgi?id=291798][#291798]]
+**KNetrownManager** 0.9 - [#291122](https://bugs.kde.org/show_bug.cgi?id=291122), [#291798](https://bugs.kde.org/show_bug.cgi?id=291798)
 
