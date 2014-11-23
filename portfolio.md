@@ -27,4 +27,5 @@ permalink: /portfolio/
 ### other
 
 **KNetrownManager** 0.9 - [#291122](https://bugs.kde.org/show_bug.cgi?id=291122), [#291798](https://bugs.kde.org/show_bug.cgi?id=291798)
+**xmlsec** - [patch](https://github.com/GNOME/xmlsec/commit/0606b7421d17b36600f27e338f82dd473d753ec9) Support for GOST R 34.10-2012 &mdash; GOST R 34.11-2012 openssl signature 
 
